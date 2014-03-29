@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:local="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="64dp"
+    android:paddingLeft="64dp"
+    android:paddingRight="64dp"
+    android:paddingTop="64dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="34sp"
+            android:text="Speaker"
+            local:MvxBind="Speaker Name" />
+        <Mvx.MvxImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            local:MvxBind="ImageUrl Speaker.ImageUrl" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who Covered this Expense?"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            local:MvxBind="Text Speaker.EmailAddress" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Who Covered this Expense?"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            local:MvxBind="Text Speaker.Bio" />
+    </LinearLayout>
+</LinearLayout>
