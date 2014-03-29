@@ -138,7 +138,19 @@
     <Reference Include="Microsoft.Threading.Tasks.Extensions">
       <HintPath>..\packages\Microsoft.Bcl.Async.1.0.166-beta\lib\portable-net45+win8\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
+    <Reference Include="ModernHttpClient.iOS">
+      <HintPath>..\packages\modernhttpclient.1.2.2\lib\MonoTouch\ModernHttpClient.iOS.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.IO">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.6\lib\portable-net40+win8\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.6\lib\portable-net40+win8\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.6\lib\portable-net40+win8\System.Threading.Tasks.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -149,9 +161,6 @@
     </Reference>
     <Reference Include="System.Net.Http.Extensions">
       <HintPath>..\packages\Microsoft.Net.Http.2.2.18\lib\portable-net45+win8\System.Net.Http.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="ModernHttpClient.iOS">
-      <HintPath>..\packages\modernhttpclient.1.2.1\lib\MonoTouch\ModernHttpClient.iOS.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.6.0.1\lib\portable-net40+sl5+wp80+win8+monotouch+monoandroid\Newtonsoft.Json.dll</HintPath>
