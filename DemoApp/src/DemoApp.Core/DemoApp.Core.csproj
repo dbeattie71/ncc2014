@@ -62,7 +62,6 @@
     <Compile Include="Rest\UrlSegment.cs" />
     <Compile Include="Services\CodeCampServcie.cs" />
     <Compile Include="ViewModels\BaseViewModel.cs" />
-    <Compile Include="ViewModels\FirstViewModel.cs" />
     <Compile Include="ViewModels\SessionsViewModel.cs" />
     <Compile Include="ViewModels\SpeakerViewModel.cs" />
   </ItemGroup>
