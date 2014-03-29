@@ -21,7 +21,7 @@ namespace DemoApp.Touch
 		{
 			base.ViewDidLoad ();
 
-			_speakerImageViewLoader = new MvxImageViewLoader (() => SpeakerImageView);
+			_speakerImageViewLoader = new MvxImageViewLoader (() => ImageView);
 			
 			var set = this.CreateBindingSet<SpeakerView, SpeakerViewModel> ();
 			set.Bind (_speakerImageViewLoader).To (s => s.Speaker.ImageUrl);

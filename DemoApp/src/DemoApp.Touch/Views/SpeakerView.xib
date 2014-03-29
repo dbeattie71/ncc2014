@@ -7,8 +7,8 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SpeakerView">
             <connections>
                 <outlet property="BioLabel" destination="Lcp-BC-AfN" id="SCG-ub-MCV"/>
+                <outlet property="ImageView" destination="7ef-ne-UJ8" id="G5C-hA-zef"/>
                 <outlet property="NameLabel" destination="xpk-3e-Kda" id="Ria-pM-QPl"/>
-                <outlet property="SpeakerImageView" destination="7ef-ne-UJ8" id="Acy-02-Mhw"/>
                 <outlet property="view" destination="nuA-B2-0kt" id="l1G-Ku-Nl3"/>
             </connections>
         </placeholder>
